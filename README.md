@@ -2,6 +2,18 @@
 
 This repository contains the method and experiments for certifiable auditing of fairness assessments.  The code computes robustness radii for group-level fairness conclusions, trains the Adult/MLP and MovieLens-1M/LightGCN models used in the experiments, and reproduces the synthetic and empirical r-epsilon studies.
 
+## Paper
+
+This code accompanies the IJCAI 2026 paper:
+
+```text
+When Can We Trust Fairness Audits? Identifying Reliability Boundaries of Third-party Audit Conclusions
+```
+
+Project page: https://unitdan.github.io/#consistency-radius
+
+The public paper link and a fuller version with appendices will be updated on the project page.
+
 ## Repository Layout
 
 - `opt_for_r.py`: core robustness-radius optimizer.
@@ -81,4 +93,8 @@ The full sweeps can take a long time and will write ignored result caches under 
 
 - Keep raw datasets and large generated results out of Git history.  If exact cached artifacts are needed, attach them as a GitHub Release asset or archive them separately.
 - The snapshot branch `codex/open-source-materials-snapshot` preserves the full local experiment state before this cleanup.
-- Add the final paper citation and project license before making the repository public.
+- Update this README with the final BibTeX once the public paper link is available.
+
+## License
+
+This project is released under the MIT License.  See `LICENSE`.
