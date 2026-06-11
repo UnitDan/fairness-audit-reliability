@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+.ipynb_checkpoints/
+
+# Third-party datasets are downloaded locally; do not redistribute them.
+adult/
+ml-1m/
+
+# Generated experiment artifacts.
+exp_analytic/k=*/
+exp_misjudge/results/
+exp_phiandr/data.csv
+exp_phiandr/pairs.csv
+exp_phiandr/concat_results_duplicate.csv
+opt_results/
+sample_results/
+
+# Large checkpoints should be regenerated or attached as release assets.
+models_rec/
+
+# Local exploratory material.
+*.ipynb
+*.png
+deprecated/
