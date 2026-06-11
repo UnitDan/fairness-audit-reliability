@@ -1,6 +1,6 @@
-# Certifiable Auditing
+# Reliability Boundaries for Fairness Audits
 
-This repository contains the method and experiments for certifiable auditing of fairness assessments.  The code computes robustness radii for group-level fairness conclusions, trains the Adult/MLP and MovieLens-1M/LightGCN models used in the experiments, and reproduces the synthetic and empirical r-epsilon studies.
+This repository contains the method and experiments for identifying reliability boundaries of third-party fairness audit conclusions.  The code computes robustness radii for group-level fairness conclusions, trains the Adult/MLP and MovieLens-1M/LightGCN models used in the experiments, and reproduces the synthetic and empirical r-epsilon studies.
 
 ## Paper
 
